@@ -1,3 +1,5 @@
+EXP:1
+
 #include<stdio.h>
 int main()
 {
@@ -20,7 +22,7 @@ printf("mohamed labeeb, 192211344");
 
 
 
-
+EXP; 2
 
 #include<stdio.h>
 int main()
@@ -45,7 +47,7 @@ printf("mohamed labeeb, 192211344");
 
 
 
-
+EXP:3
 
 #include <stdio.h>
 int main()
@@ -70,7 +72,7 @@ printf("mohamed labeeb, 1992211344");
 
 
 
-
+EXP;4
 
 #include <stdio.h>
 int main()
@@ -94,7 +96,7 @@ printf("mohamed labeeb, 192211344");
 
 
 
-
+EXP:5
 
 #include <stdio.h>
 int main() 
@@ -117,7 +119,7 @@ printf("mohamed labeeb, 192211344");
 
 
 
-
+EXP:6
 
 #include <stdio.h>
 
@@ -144,7 +146,7 @@ int main() {
 
 
 
-
+EXP:7
 
 #include <stdio.h>
 
@@ -169,7 +171,7 @@ int main() {
 
 
 
-
+EXP:8
 
 #include <stdio.h>
 
@@ -189,6 +191,373 @@ int main() {
 }
 
 
+
+
+
+
+
+
+
+EXP:9
+
+#include <stdio.h>
+
+int main() {
+    int n, sum = 0;
+
+    printf("Enter the value of N: ");
+    scanf("%d", &n);
+
+    int sign = 1; // To alternate the sign (+ or -)
+
+    for (int i = 1; i <= n; i++) {
+        sum += sign * i;
+        sign = -sign; // Change the sign for the next iteration
+    }
+
+    printf("Sum of the series 1 - 2 + 3 - 4 + 5 ... %d = %d\n", n, sum);
+    printf(""labeeb, 199211344);
+    return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+EXP:10
+
+#include <stdio.h>
+
+int main() {
+    int n, sum = 0;
+
+    printf("Enter the value of n: ");
+    scanf("%d", &n);
+
+    for (int i = 1; i <= n; i++) {
+        sum += (i * 10 + 2);
+    }
+
+    printf("Sum of the series 12 + 22 + 32 + 42 + ... +%d = %d\n", n, sum);
+    printf("labeeb, 1992211344");
+    return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+EXP:11
+
+#include <stdio.h>
+
+int main() {
+    int n, sum = 0;
+
+    printf("Enter the value of n: ");
+    scanf("%d", &n);
+
+    for (int i = 1; i <= n; i++) {
+        sum += (i * 10 + 2);
+    }
+
+    printf("Sum of the series 12 + 22 + 32 + 42 + ... +%d = %d\n", n, sum);
+    printf("labeeb, 192211344");
+
+    return 0;
+}
+
+
+
+
+
+
+
+
+
+EXP:12
+
+#include <stdio.h>
+
+int main() {
+    int n, sum = 0;
+
+    printf("Enter the value of n: ");
+    scanf("%d", &n);
+
+    for (int i = 1; i <= n; i++) {
+        sum += (i * i);
+    }
+
+    printf("Sum of the series 22 + 42 + 62 + 82 + ... +%d^2 = %d\n", n, sum);
+
+    return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+EXP:13
+
+#include <stdio.h>
+
+int main() {
+    int n, sum = 0;
+
+    printf("Enter the value of n: ");
+    scanf("%d", &n);
+
+    for (int i = 1; i <= n; i++) {
+        sum += i * 11;
+    }
+
+    printf("Sum of the series 11 + 22 + 33 + 44 + ... +%d%d = %d\n", n, n, sum);
+    printf("LABEEB, 1992211344");
+    return 0;
+}
+
+
+
+
+
+
+
+
+EXP:14
+#include <stdio.h>
+
+int main() {
+    int n, sum = 0;
+
+    printf("Enter the value of n: ");
+    scanf("%d", &n);
+
+    for (int i = 1; i <= n; i += 2) {
+        sum += i * i;
+    }
+
+    printf("Sum of the squares of odd numbers from 1 to %d = %d\n", n, sum);
+    printf("LABEEB, 1992211344");
+    return 0;
+}
+
+
+
+
+
+
+
+
+
+EXP:15
+#include <stdio.h>
+
+int main() {
+    int n, sum = 0;
+
+    printf("Enter the value of n: ");
+    scanf("%d", &n);
+
+    for (int i = 1; i <= n; i++) {
+        sum += i * i * i;
+    }
+
+    printf("Sum of the cubes of the first %d natural numbers = %d\n", n, sum);
+    printf("labeeb, 192211344");    
+    return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+EXP:16
+#include <stdio.h>
+
+int main() {
+    int n;
+    unsigned long long factorial = 1;
+
+    printf("Enter a positive integer: ");
+    scanf("%d", &n);
+
+    if (n < 0) {
+        printf("Factorial is not defined for negative numbers.\n");
+    } else {
+        for (int i = 1; i <= n; i++) {
+            factorial *= i;
+        }
+
+        printf("Factorial of %d = %llu\n", n, factorial);
+    }
+    printf("labeeb, 192211344"); 
+    return 0;
+}
+
+
+
+
+
+
+
+
+
+
+EXP;17
+#include <stdio.h>
+#include <math.h>
+
+int main() {
+    int num, originalNum, remainder, n = 0;
+    double result = 0.0;
+
+    printf("Enter an integer: ");
+    scanf("%d", &num);
+
+    originalNum = num;
+
+    while (originalNum != 0) {
+        originalNum /= 10;
+        ++n;
+    }
+
+    originalNum = num;
+
+   
+    while (originalNum != 0) {
+        remainder = originalNum % 10;
+        result += pow(remainder, n);
+        originalNum /= 10;
+    }
+
+    if ((int)result == num) {
+        printf("%d is an Armstrong number.\n", num);
+    } else {
+        printf("%d is not an Armstrong number.\n", num);
+    }
+printf("labeeb, 192211344");
+    return 0;
+}
+
+
+
+
+
+
+
+EXP;18
+#include <stdio.h>
+
+int main() {
+    int n, num;
+    double sum = 0.0;
+
+    printf("Enter the number of elements: ");
+    scanf("%d", &n);
+
+    printf("Enter %d numbers:\n", n);
+    for (int i = 0; i < n; i++) {
+        scanf("%d", &num);
+        sum += num;
+    }
+
+    double average = sum / n;
+
+    printf("Sum = %.2f\n", sum);
+    printf("Average = %.2f\n", average);
+   
+    printf("labeeb, 192211344");
+    return 0;
+}
+
+
+
+
+
+
+
+
+EXP:19
+#include <stdio.h>
+
+int main() {
+    int num, digit;
+
+    printf("Enter an integer: ");
+    scanf("%d", &num);
+
+    printf("Digits of %d are: ", num);
+
+    // Extract and print each digit
+    while (num > 0) {
+        digit = num % 10;
+        printf("%d ", digit);
+        num /= 10;
+    }
+
+    printf("\n");
+    printf("labeeb, 192211344");
+    return 0;
+}
+
+
+
+
+
+
+
+EXP:20:
+
+#include <stdio.h>
+
+int main() {
+    int num, digit, sum = 0;
+
+    printf("Enter an integer: ");
+    scanf("%d", &num);
+
+    int originalNum = num; // Save the original number for printing later
+
+    
+    while (num > 0) {
+        digit = num % 10;
+        sum += digit;
+        num /= 10;
+    }
+
+    printf("Sum of the digits of %d = %d\n", originalNum, sum);
+    printf("labeeb, 192211344"); 
+    return 0;
+}
 
 
 
